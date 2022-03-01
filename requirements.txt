@@ -1,0 +1,15 @@
+Flask == 2.0.1
+python-dotenv
+
+## code cheacker and formatter
+flake8
+black
+isort
+mypy
+
+## ML model
+tensorflow
+numpy
+
+## Image
+Pillow
