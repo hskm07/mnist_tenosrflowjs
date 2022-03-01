@@ -1,0 +1,15 @@
+{% extends "entries/base.html" %}
+
+{% block canvas %}
+<form action="" method="POST" enctype='multipart/form-data'>
+<canvas id="canvas" width="280" height="280" style="border: 2px solid;"></canvas>
+<hr>
+<input type="hidden" name="img-src" value="" id="img-src">
+<input type="button" class="btn btn-outline-primary btn-lg" id="send" value="判定開始">
+
+</form>
+{% endblock %}
+
+{% block extrajs %}
+
+{% endblock %}

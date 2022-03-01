@@ -1,0 +1,24 @@
+ol{
+    /*padding : 10px, 10px ;*/ /*ボックス内の余白*/*/
+    color: #668ad8;/*文字色*/
+    border: dashed 2px #668ad8;/*破線 太さ 色*/
+    background: #f1f8ff; /*背景色*/
+    display: inline-block;
+}
+
+ol li,{
+    line-height: 1.5; /*文の行の高さ*/
+    padding: 10px, 10px; /*前後の文の余白*/
+}
+
+
+.title {
+    padding : 1rem 2rem;
+    border-left: 6px double #668ad8
+}
+
+.is-selected {
+    background-color: blue;
+    color: white;
+    line-height: 1.5;
+}
